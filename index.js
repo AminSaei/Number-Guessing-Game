@@ -12,18 +12,18 @@ while(running){
     guess = Number(guess);
 
     if(isNaN(guess)){
-        window.alert("a valid numb plessss");
+        window.alert("please enter a VALID number");
     }
     else if(guess < minNum || guess > maxNum){
-        window.alert("valid please you cunt");
+        window.alert("please enter a valid number...");
     }
     else{
         attempts++;
         if(guess < answer){
-            window.alert("too low try again");
+            window.alert("too low mate try again");
         }
         else if(guess > answer){
-            window.alert("too high try AAGAin");
+            window.alert("too high mate again");
         }
         else{
             window.alert(`correct, the answer was ${answer}, it took you ${attempts} to answer!`);
